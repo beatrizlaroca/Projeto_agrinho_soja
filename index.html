@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agronegócio e Sustentabilidade na Produção de Soja</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#1b5e20;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#2e7d32;
+}
+
+button{
+    background:#43a047;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+
+#curiosidade{
+    display:none;
+    margin-top:15px;
+    padding:15px;
+    background:#e8f5e9;
+    border-radius:8px;
+}
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#81c784;
+}
+
+th, td{
+    padding:10px;
+    text-align:center;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Agronegócio e Sustentabilidade na Produção de Soja</h1>
+    <p>Como produzir mais alimentos preservando o meio ambiente.</p>
+</header>
+
+<nav>
+    <a href="#soja">A Soja</a>
+    <a href="#agronegocio">Agronegócio</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#beneficios">Benefícios</a>
+</nav>
+
+<section id="soja">
+    <h2>O que é a Soja?</h2>
+    <p>
+        A soja é uma das culturas agrícolas mais importantes do mundo e tem
+        grande destaque na economia brasileira. Seus grãos são utilizados
+        para produzir óleo, farelo para alimentação animal, biocombustíveis
+        e diversos alimentos consumidos pela população.
+    </p>
+</section>
+
+<section id="agronegocio">
+    <h2>Importância para o Agronegócio</h2>
+    <p>
+        O agronegócio da soja gera empregos, movimenta a economia e contribui
+        significativamente para as exportações brasileiras. O Brasil está entre
+        os maiores produtores e exportadores de soja do planeta.
+    </p>
+
+    <table>
+        <tr>
+            <th>Setor</th>
+            <th>Importância</th>
+        </tr>
+        <tr>
+            <td>Economia</td>
+            <td>Geração de renda e exportações</td>
+        </tr>
+        <tr>
+            <td>Empregos</td>
+            <td>Milhões de postos de trabalho</td>
+        </tr>
+        <tr>
+            <td>Indústria</td>
+            <td>Produção de óleo, farelo e biodiesel</td>
+        </tr>
+    </table>
+</section>
+
+<section id="sustentabilidade">
+    <h2>Sustentabilidade na Produção de Soja</h2>
+
+    <p>
+        A sustentabilidade busca equilibrar a produção agrícola com a preservação
+        ambiental. O objetivo é produzir alimentos sem comprometer os recursos
+        naturais das futuras gerações.
+    </p>
+
+    <h3>Práticas Sustentáveis</h3>
+    <ul>
+        <li>Plantio direto.</li>
+        <li>Rotação de culturas.</li>
+        <li>Uso racional da água.</li>
+        <li>Proteção de nascentes e rios.</li>
+        <li>Controle biológico de pragas.</li>
+        <li>Redução do uso de defensivos agrícolas.</li>
+        <li>Preservação de áreas de vegetação nativa.</li>
+    </ul>
+</section>
+
+<section id="beneficios">
+    <h2>Benefícios da Agricultura Sustentável</h2>
+
+    <ul>
+        <li>Maior conservação do solo.</li>
+        <li>Redução da erosão.</li>
+        <li>Economia de recursos naturais.</li>
+        <li>Melhoria da qualidade da água.</li>
+        <li>Aumento da produtividade a longo prazo.</li>
+        <li>Menor impacto ambiental.</li>
+    </ul>
+
+    <button onclick="mostrarCuriosidade()">
+        Mostrar Curiosidade
+    </button>
+
+    <div id="curiosidade">
+        <h3>Curiosidade</h3>
+        <p>
+            A soja é uma das principais commodities agrícolas do mundo e está
+            presente em milhares de produtos alimentícios consumidos diariamente.
+            Além disso, a utilização de técnicas sustentáveis pode aumentar a
+            produtividade e reduzir impactos ambientais ao mesmo tempo.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Conclusão</h2>
+
+    <p>
+        A produção de soja é fundamental para o agronegócio brasileiro. No entanto,
+        para garantir a preservação dos recursos naturais, é essencial adotar práticas
+        sustentáveis que protejam o solo, a água e a biodiversidade. Dessa forma,
+        é possível conciliar desenvolvimento econômico, produção de alimentos e
+        responsabilidade ambiental.
+    </p>
+</section>
+
+<footer>
+    <p>Projeto Educacional - Agricultura, Agronegócio e Sustentabilidade na Soja</p>
+</footer>
+
+<script>
+function mostrarCuriosidade() {
+    let caixa = document.getElementById("curiosidade");
+
+    if(caixa.style.display === "block"){
+        caixa.style.display = "none";
+    } else {
+        caixa.style.display = "block";
+    }
+}
+</script>
+
+</body>
+  </html>
